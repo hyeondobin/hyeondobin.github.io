@@ -19,6 +19,5 @@ function calculateCalories(weight, calories) {
 }
 
 function calculateFoodAmount(){
-  calories * 1000 / 4000
-  document.getElementById("result").innerText = calories;
+  document.getElementById("result").innerText = calories * 1000 / 4000;
 }
