@@ -13,7 +13,7 @@ function calculateCalories(calories) {
         calories = weight * 30 + 70;
         console.log(calories);
     } else if (weight < 2.0) {
-        calories = 70 * (weight * 0.75);
+        calories = 70 * weight ** 0.75;
         console.log(calories);
     }
     calculateFoodAmount(calories);
