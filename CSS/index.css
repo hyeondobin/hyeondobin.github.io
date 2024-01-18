@@ -1,0 +1,13 @@
+div#header {
+    display: flex;
+    border-bottom: 3px solid black;
+    align-items: right;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+div#header button {
+    margin: 10px 0;
+    padding: 10px 20px;
+}
