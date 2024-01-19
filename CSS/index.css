@@ -26,3 +26,25 @@ img {
     height: 100%;
     object-fit: contain;
 }
+
+.map-links {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+.map-links > a {
+    flex-grow: 1;
+    border: 2px solid black;
+    padding: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #707070;
+    font-size: 3rem;
+}
+
+#TMAP-btn {
+    border-right: none;
+}
