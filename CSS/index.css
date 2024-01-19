@@ -15,3 +15,11 @@ header button {
 header>h1 {
     flex-grow: 1;
 }
+
+.imgs {
+    text-align: center;
+}
+
+img {
+    align-items: center;
+}
