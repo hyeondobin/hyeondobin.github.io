@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: right;
+    border-bottom: 3px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    margin: 10px 0;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+header>h1 {
+    flex-grow: 1;
+}
